@@ -3,15 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
+import Homepage from './pages/homepage'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <Navbar />
-    <Sidebar />
+    <div className='flex'> 
+      <Sidebar />
+      <Navbar />
+      <Homepage />
+    </div>
+
+   
+   
     
     </>
   )
