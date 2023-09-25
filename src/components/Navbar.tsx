@@ -3,17 +3,14 @@
 const Navbar = () => {
   return ( 
     <>
-      <header className="flex justify-center items-center m-5">
-        
-        <div className="flex-1 w-5">
-          <h1>Heading</h1>
-        </div>
-        <nav className="flex-1 w-32">
-          <ul className="flex justify-center items-center">
-            <li> <a href="#">Home</a> </li>
-            <li> <a href="#">contact</a> </li>
+      <header className="flex justify-between w-full flex-wrap p-5 bg-red-300 ">
+          <h1>Dashboard</h1>
+          <ul className="flex gap-2">
+            <li> <a href="#">Notifications</a> </li>
+            <li> <a href="#">Settings</a> </li>
+            <li> <a href="#">Profile</a> </li>
           </ul>
-        </nav>
+
       </header>
     </>
    );
