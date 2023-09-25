@@ -1,9 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
-import Homepage from './pages/homepage'
+import Homepage from './pages/Homepage';
 
 
 function App() {
@@ -13,8 +12,11 @@ function App() {
     <>
     <div className='flex'> 
       <Sidebar />
-      <Navbar />
-      <Homepage />
+      <main className='flex flex-col w-full'>
+        <Navbar />
+       <Homepage />
+      </main>
+    
     </div>
 
    
