@@ -4,14 +4,17 @@
 
 
 @layer base {
-  :root {
-    --color-primary: #26A2DB;
+  /* :root {
+    --color-primary: #7CB9E8;
     --color-secondary: #0d4669;
-    /* ... */
-  }
+
+  } */
+  
   *{
-    margin:0;
-    padding: 0;
+    font-family: "Onest", "sans-serif";   
+  }
+  body{
+    @apply bg-secondary;
   }
 }
 
@@ -20,5 +23,6 @@
     @apply rounded shadow-md w-72  h-36;  
     background-color: var(--color-primary);
   }
+
 }
 

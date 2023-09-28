@@ -3,7 +3,7 @@ import Card from "../components/Card";
 const Homepage = () => {
     return ( 
         <>
-            <section className="m-5 p-3 bg-slate-400 ">
+            <section className="m-5 p-3 bg-slate-400  shadow-md border border-border rounded-lg	">
                 <h1>Overview</h1>
                 <div className="flex flex-wrap m-5 gap-10" >
                     <Card />

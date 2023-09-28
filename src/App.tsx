@@ -12,7 +12,7 @@ function App() {
     <>
     <div className='flex'> 
       <Sidebar />
-      <main className='flex flex-col w-full'>
+      <main className='flex  flex-col w-full pl-24 sm:pl-60 z-[-1] '>
         <Navbar />
        <Homepage />
       </main>
