@@ -42,7 +42,7 @@ const Sidebar = () => {
                                 <span className='hidden sm:block'>Reviews</span>  
                             </a>
                         </li>
-                        <li className=' absolute bottom-0 pb-10 flex pt-8 sm:pl-12 pl-6 pb-8 border-b border-border border-l-4 border-l-primary'>
+                        <li className=' absolute bottom-0 flex pt-8 sm:pl-12 pl-6 pb-8 border-b border-border border-l-4 border-l-primary'>
                             <a className="flex hover:fill-primary hover:text-primary  ease-in-out duration-300" href="#"> 
                             <span className='pr-1'> <box-icon type='solid' name='dashboard'></box-icon></span>
                                 <span className='hidden sm:block'>Logout</span>  
