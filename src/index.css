@@ -2,8 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .card{
-    @apply rounded shadow-md bg-black w-72 h-36;  
+
+@layer base {
+  :root {
+    --color-primary: #26A2DB;
+    --color-secondary: #0d4669;
+    /* ... */
+  }
+  *{
+    margin:0;
+    padding: 0;
   }
 }
+
+@layer components {
+  .card{
+    @apply rounded shadow-md w-72  h-36;  
+    background-color: var(--color-primary);
+  }
+}
+
