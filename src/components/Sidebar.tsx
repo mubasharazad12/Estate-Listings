@@ -6,20 +6,20 @@ const Sidebar = () => {
 
     return ( 
         <>
-            <aside className="flex fixed bg-secondary w-20 sm:w-56 min-h-screen text-black shadow-2xl shadow-shadow">
+            <aside className="flex fixed bg-secondary w-20 sm:w-56 min-h-screen text-black shadow-2xl shadow-shadow  bg-gradient-to-r from-gradient">
                
                 <nav className='truncate'>
-                    <div className="flex items-center w-20 sm:w-36 flex-col sm:flex-row sm:m-10 mt-10 bg-ne" >   
-                        <img width={200} src={logo}alt="" />
+                    <div className="flex items-center w-20 sm:w-36 flex-col sm:flex-row sm:pt-5 sm:pb-0 pb-4 mx-auto pt-10" >   
+                        <img width={135} src={logo}alt="" />
                         {/* <span>logo name</span> */}
                       
                     </div>
                   
     
-                    <hr className="w-20  sm:w-56 h-[1px] bg-border border-none mt-10 "/>
+                    <hr className="w-20  sm:w-56 h-[1px] bg-border border-none  "/>
                     <ul className="text-gray-700 font-display font-semibold">
-                        <li className='pt-8 sm:pl-12 pl-6 pb-8 border-b border-border border-l-4 border-l-primary'>
-                            <a className="flex hover:fill-primary hover:text-primary  ease-in-out duration-300" href="#"> 
+                        <li className='pt-8 sm:pl-12 pl-6 pb-8 border-b border-border border-l-4 border-l-primary '>
+                            <a className="flex hover:fill-primary hover:text-primary  ease-in-out duration-300 " href="#"> 
                                 <span className='pr-1 '> <box-icon type='solid' name='dashboard'></box-icon></span> 
                                 <span className='hidden sm:block'>Dashboard</span>  
                             </a>
@@ -44,7 +44,7 @@ const Sidebar = () => {
                         </li>
                         <li className=' absolute bottom-0 flex pt-8 sm:pl-12 pl-6 pb-8 border-b border-border border-l-4 border-l-primary'>
                             <a className="flex hover:fill-primary hover:text-primary  ease-in-out duration-300" href="#"> 
-                            <span className='pr-1'> <box-icon type='solid' name='dashboard'></box-icon></span>
+                            <span className='pr-1'> <box-icon name='log-out' type='solid' ></box-icon></span>
                                 <span className='hidden sm:block'>Logout</span>  
                             </a>
                         </li>
