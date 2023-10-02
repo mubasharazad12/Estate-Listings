@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
-import Homepage from './pages/Homepage';
+import Homepage from './pages/homepage';
 
 
 function App() {

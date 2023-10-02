@@ -1,13 +1,15 @@
+import { CardObject } from "../shared/types/types";
 
-type card =[
-    title : string
-]
+type CardProps = {
+    card :  CardObject;
+}
     
-const Card = ({test} : card) => {
+function Card ({card} : CardProps)  { 
+    const {heading, para} = card;
     return ( 
         <div className=" group card flex justify-center items-center cursor-pointer">
             <div className="flex flex-col text-neutral-100"> 
-                <span className=" pt-2 text-xs"> {test.title} </span>
+                <span className=" pt-2 text-xs"> {heading} </span>
                 <span className=" pt-1 text-2xl font-bold "> 350,897 </span>
                 <span className="pt-6 flex "> <span className="fill-neutral-100"> <box-icon name='up-arrow-alt'></box-icon> </span> 3.48% &nbsp;  Since last month</span>
             </div>

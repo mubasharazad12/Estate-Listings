@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import CardList from "../../components/CardList";
 
 const Homepage = () => {
     
@@ -7,10 +7,8 @@ const Homepage = () => {
             <section className="m-5 p-3 flex justify-center">
      
                 <div className="flex flex-wrap m-5 gap-10" >
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                 
+                    <CardList />
                 </div>
             </section>
 
