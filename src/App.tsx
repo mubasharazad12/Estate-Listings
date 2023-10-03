@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
-import Homepage from './pages/Homepage';
+import Homepage from './pages/homepage';
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
     <div className='flex'> 
       <Sidebar />
-      <main className='flex flex-col w-full'>
+      <main className='flex  flex-col w-full pl-20 sm:pl-56'>
         <Navbar />
        <Homepage />
       </main>
