@@ -1,4 +1,8 @@
+import { ReactElement } from "react";
+
 export type CardObject = {
-    para: string;
-    heading : string;
+    title: string;
+    numberOf : number;
+    percentage: number;
+    icon: ReactElement ;
 }
